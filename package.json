@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "dev:client": "ng serve",
-    "dev:serve": "ts-node -r tsconfig-paths/register src/server/main.ts",
+    "dev:server": "ts-node -r tsconfig-paths/register src/server/main.ts",
     "start:dev": "nodemon",
     "start:prod": "node dist/main.js",
     "build:client": "ng build",
@@ -36,11 +36,14 @@
     "@commitlint/config-conventional": "^7.5.0",
     "@nestjs/common": "^5.7.4",
     "@nestjs/core": "^5.7.4",
+    "@nestjs/typeorm": "^6.1.1",
     "core-js": "^2.5.4",
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.2",
     "rxjs": "~6.3.3",
+    "sqlite3": "^4.0.8",
     "tslib": "^1.9.0",
+    "typeorm": "^0.2.17",
     "typescript": "~3.2.2",
     "zone.js": "~0.8.26"
   },
