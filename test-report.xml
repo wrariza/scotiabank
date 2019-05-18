@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/william.ariza/apps/scotiabank/src/server/app.controller.spec.ts">
+    <testCase name="AppController root should return &quot;Hello World!&quot;" duration="11"/>
+  </file>
+</testExecutions>
