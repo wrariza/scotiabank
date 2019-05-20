@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="/Users/william.ariza/apps/scotiabank/src/client/app/app.component.spec.ts">
-    <testCase name="AppComponent should create the app" duration="117"/>
-    <testCase name="AppComponent should have as title &apos;scotiabank&apos;" duration="50"/>
-    <testCase name="AppComponent should render title in a h1 tag" duration="25"/>
+  <file path="/Users/william.ariza/apps/scotiabank/src/server/app.controller.spec.ts">
+    <testCase name="AppController root should return &quot;Hello World!&quot;" duration="12"/>
   </file>
 </testExecutions>
