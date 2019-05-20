@@ -11,7 +11,7 @@ import { ClientService } from '../services/clients.service'
 import { Client } from '../entitys/client.entity'
 import { UpdateResult, DeleteResult } from 'typeorm'
 
-@Controller('clients')
+@Controller('scotiabank/api/clients')
 export class ClientsController {
   constructor(private readonly clientService: ClientService) {}
 

@@ -1,6 +1,6 @@
 {
   "/scotiabank/api": {
-    "target": "http://localhost:4201",
+    "target": "http://localhost:9090",
     "secure": false
   }
 }

@@ -1,4 +1,3 @@
-import { Observable } from 'rxjs'
 import { Client } from '../../models/client.model'
 import { IService } from '../core/IService'
 
