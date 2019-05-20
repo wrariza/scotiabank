@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
   <file path="/Users/william.ariza/apps/scotiabank/src/client/app/app.component.spec.ts">
-    <testCase name="AppComponent should create the app" duration="117"/>
-    <testCase name="AppComponent should have as title &apos;scotiabank&apos;" duration="50"/>
-    <testCase name="AppComponent should render title in a h1 tag" duration="25"/>
+    <testCase name="AppComponent should create the app" duration="121"/>
+    <testCase name="AppComponent should have as title &apos;scotiabank&apos;" duration="46"/>
+    <testCase name="AppComponent should render title in a h1 tag" duration="33">
+      <failure message="TypeError: Cannot read property &apos;textContent&apos; of null"><![CDATA[TypeError: Cannot read property 'textContent' of null
+    at it (/Users/william.ariza/apps/scotiabank/src/client/app/app.component.spec.ts:30:12)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (/Users/william.ariza/apps/scotiabank/node_modules/zone.js/dist/zone.js:391:26)
+    at ProxyZoneSpec.Object.<anonymous>.ProxyZoneSpec.onInvoke (/Users/william.ariza/apps/scotiabank/node_modules/zone.js/dist/proxy.js:129:39)
+    at ZoneDelegate.Object.<anonymous>.ZoneDelegate.invoke (/Users/william.ariza/apps/scotiabank/node_modules/zone.js/dist/zone.js:390:52)
+    at Zone.Object.<anonymous>.Zone.run (/Users/william.ariza/apps/scotiabank/node_modules/zone.js/dist/zone.js:150:43)
+    at Object.testBody.length (/Users/william.ariza/apps/scotiabank/node_modules/jest-zone-patch/index.js:50:27)
+    at Object.asyncJestTest (/Users/william.ariza/apps/scotiabank/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at resolve (/Users/william.ariza/apps/scotiabank/node_modules/jest-jasmine2/build/queueRunner.js:43:12)
+    at new Promise (<anonymous>)
+    at mapper (/Users/william.ariza/apps/scotiabank/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at promise.then (/Users/william.ariza/apps/scotiabank/node_modules/jest-jasmine2/build/queueRunner.js:73:41)]]></failure>
+    </testCase>
   </file>
 </testExecutions>
